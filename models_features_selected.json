@@ -1,0 +1,37 @@
+{
+    "RandomForestRegressor": [
+        "ReactionTemperature",
+        "H2FlowRate",
+        "ReactionTemperature^2",
+        "H2FlowRate^2",
+        "ReactionTemperature^3",
+        "ReactionTemperature^2 ReactorVolume",
+        "H2FlowRate^2 FeedPressure"
+    ],
+    "GradientBoostingRegressor": [
+        "ReactionTemperature",
+        "ReactionTemperature^2",
+        "H2FlowRate^2",
+        "ReactionTemperature^3",
+        "ReactionTemperature^2 ReactorVolume",
+        "H2FlowRate^3",
+        "H2FlowRate^2 FeedPressure"
+    ],
+    "XGBRFRegressor": [
+        "ReactionTemperature",
+        "H2FlowRate",
+        "ReactionTemperature^2",
+        "H2FlowRate^2",
+        "ReactionTemperature^2 ReactorVolume",
+        "H2FlowRate^2 ReactorVolume",
+        "H2FlowRate^2 FeedPressure"
+    ],
+    "LGBMRegressor": [
+        "ReactionTemperature",
+        "H2FlowRate",
+        "ReactionTemperature FeedPressure",
+        "ReactionTemperature^2 ReactorVolume",
+        "H2FlowRate^2 SplitsValues",
+        "H2FlowRate ReactorVolume^2"
+    ]
+}
