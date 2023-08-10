@@ -36,7 +36,7 @@
         "dropout": 0.5753872152012185,
         "batch_size":32,
         "epochs":250,
-        "features_in":84,
+        
         "verbose":0
     }
 }
